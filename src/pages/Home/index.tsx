@@ -17,7 +17,7 @@ export function Home() {
             <img src={beeStripe} alt="" />
             <span>Portfólio</span>
           </LinkButton>
-          <LinkButton href="https://www.youtube.com">
+          <LinkButton href="https://www.youtube.com/@BeeTakes">
             <img src={beeStripe} alt="" />
             <span>Canal Youtube</span>
           </LinkButton>
