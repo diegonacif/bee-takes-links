@@ -5,28 +5,26 @@ import { VideoBanner } from "../../components/VideoBanner";
 
 export function Home() {
   return (
-    <>
+    <HomeContainer>
       <VideoBanner />
-      <HomeContainer>
-        <div className="logo-wrapper">
-          <BeeLogo />
-        </div>
-        <h2>Tenha suas memórias, negócios ou histórias, sob uma nova perspectiva.</h2>
-        <ButtonsSection>
-          <LinkButton>
-            <img src={beeStripe} alt="" />
-            <span>Portfólio</span>
-          </LinkButton>
-          <LinkButton href="https://youtube.com/@BeeTakes?si=_wrsOlnnUkbCqwKL">
-            <img src={beeStripe} alt="" />
-            <span>Canal Youtube</span>
-          </LinkButton>
-          <LinkButton>
-            <img src={beeStripe} alt="" />
-            <span>Orçamentos</span>
-          </LinkButton>
-        </ButtonsSection>
-      </HomeContainer>
-    </>
+      <div className="logo-wrapper">
+        <BeeLogo />
+      </div>
+      <h2>Tenha suas memórias, negócios ou histórias, sob uma nova perspectiva.</h2>
+      <ButtonsSection>
+        <LinkButton>
+          <img src={beeStripe} alt="" />
+          <span>Portfólio</span>
+        </LinkButton>
+        <LinkButton href="https://youtube.com/@BeeTakes?si=_wrsOlnnUkbCqwKL">
+          <img src={beeStripe} alt="" />
+          <span>Canal Youtube</span>
+        </LinkButton>
+        <LinkButton>
+          <img src={beeStripe} alt="" />
+          <span>Orçamentos</span>
+        </LinkButton>
+      </ButtonsSection>
+    </HomeContainer>
   )
 }
