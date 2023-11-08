@@ -4,6 +4,8 @@ export const HomeContainer = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100dvh;
+  height: 100%;
 
   h2 {
     font-weight: 500;
@@ -23,6 +25,20 @@ export const HomeContainer = styled.main`
     width: fit-content;
     height: fit-content;
   }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    margin-top: auto;
+
+    span {
+      color: ${(props) => props.theme['gray-500']};
+      cursor: pointer;
+    }
+  }
 `
 
 export const ButtonsSection = styled.section`
@@ -31,7 +47,7 @@ export const ButtonsSection = styled.section`
   align-items: center;
   width: 100%;
   gap: 1.375rem;
-  margin-top: 4rem;
+  margin: 4rem 0 2rem 0;
   padding: 0 2rem;
 `
 

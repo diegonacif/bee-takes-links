@@ -34,6 +34,9 @@ export function Home() {
           <span onClick={() => window.open(whatsappAddress + encodeURI(whatsappMessage))}>Fale Conosco</span>
         </LinkButton>
       </ButtonsSection>
+      <footer>
+        <span onClick={() => window.open('https://www.linkedin.com/in/diegonacif-dev/')}>Desenvolvido por Diego Nacif</span>
+      </footer>
     </HomeContainer>
   )
 }
