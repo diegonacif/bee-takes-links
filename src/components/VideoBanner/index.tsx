@@ -18,7 +18,7 @@ export function VideoBanner() {
         src={backgroundVideo}
         poster={poster}
       /> */}
-      <YoutubeEmbed embedId="VzqWO5EaSps" />
+      <YoutubeEmbed embedId="bR5WI3CECSk" />
     </VideoBannerContainer>
   )
 }
