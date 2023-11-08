@@ -17,7 +17,7 @@ export const HomeContainer = styled.main`
 
   .logo-wrapper {
     position: relative;
-    bottom: 5rem;
+    bottom: 5.5rem;
     left: 0;
     display: flex;
     align-items: center;

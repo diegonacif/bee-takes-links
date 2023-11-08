@@ -1,4 +1,4 @@
-import beeLogoImg from '../../assets/bee-logo.png'
+import beeLogoImg from '../../assets/bee-logo-2.png'
 import { BeeLogoContainer } from './styles'
 
 export function BeeLogo() {
