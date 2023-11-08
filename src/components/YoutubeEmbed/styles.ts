@@ -12,7 +12,7 @@ export const YoutubeEmbedContainer = styled.div`
     position: absolute;
     left: 0;
     top: 0;
-    transform: translateY(-25%);
+    transform: translateY(-24%);
     height: 100%;
     width: 100%;
     min-height: 10rem;

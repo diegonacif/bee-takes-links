@@ -63,6 +63,7 @@ export const UnderConstructionContainer = styled.main`
         display: flex;
         gap: 0.5rem;
         margin-top: 12rem;
+        cursor: pointer;
 
         span {
           font-size: 1.25rem;
@@ -83,6 +84,7 @@ export const UnderConstructionContainer = styled.main`
 
         span {
           color: ${(props) => props.theme['gray-500']};
+          cursor: pointer;
         }
       }
 
