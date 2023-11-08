@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import bgImg from "../../assets/IMG_5531.jpg";
 
 export const UnderConstructionContainer = styled.main`
   position: relative;
@@ -97,7 +98,7 @@ export const UnderConstructionContainer = styled.main`
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/src/assets/IMG_5531.jpg);
+    background-image: url(${bgImg});
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
