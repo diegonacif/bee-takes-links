@@ -1,12 +1,13 @@
 import { VideoBannerContainer } from "./styles";
 
-import backgroundVideo from "../../assets/bee-site-background-video.mp4";
-import poster from "../../assets/IMG_5531.jpg";
+// import backgroundVideo from "../../assets/bee-site-background-video.mp4";
+// import poster from "../../assets/IMG_5531.jpg";
+import { YoutubeEmbed } from "../YoutubeEmbed";
 
 export function VideoBanner() {
   return (
     <VideoBannerContainer>
-      <video
+      {/* <video
         loop
         muted
         autoPlay
@@ -16,7 +17,8 @@ export function VideoBanner() {
         id="background-video"
         src={backgroundVideo}
         poster={poster}
-      />
+      /> */}
+      <YoutubeEmbed embedId="VzqWO5EaSps" />
     </VideoBannerContainer>
   )
 }
